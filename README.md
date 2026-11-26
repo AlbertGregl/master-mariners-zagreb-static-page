@@ -19,14 +19,16 @@ See the [GitHub Pages workflow documentation](https://docs.github.com/en/pages/g
 
 ## Edit the content
 
-- `index.html`: Croatian introduction, association aims, membership information, common questions and email contact.
+- `index.html`: Croatian introduction, association aims, membership information, founding date, postal address and email contact.
+- `statut.html`: full statute as a styled, printable page with a linked table of contents and article anchors (`#clanak-1` through `#clanak-57`).
 - `styles.css`: responsive layout and blue colour palette.
 - `assets/logo.png`: existing association logo.
 - `assets/brod-zagreb.png`: existing photograph of the ship Zagreb.
-- `documents/statut.txt`: full statute text copied from the original app, dated 28 September 2015.
+- `assets/crs-logo.svg`: official Croatian Register of Shipping logo from [its website](https://www.crs.hr/Portals/_default/skins/crs2021//images/CI/logoEN.svg), displayed in the “Prijatelji udruge” section with a link to [CRS](https://www.crs.hr/hr/).
+- `documents/statut.txt`: original statute text, dated 28 September 2015. Keep this source and `statut.html` in sync when updating the statute.
 
 Text, email address and images were taken from the neighbouring `master-mariner` project. Descriptions of the association's aims and membership were adapted from its statute. The statute text itself is preserved as supplied; confirm its currency before public release.
 
-There are no login or contact forms, blog, member profiles, application APIs, database integrations, analytics, external fonts or JavaScript dependencies. Email links open the visitor's email application. Common questions use native HTML details elements.
+There are no login or contact forms, blog, member profiles, application APIs, database integrations, analytics, external fonts or JavaScript dependencies. Email links open the visitor's email application.
 
 The original `master-mariner` project is unchanged. No site has been published by creating these local files.
